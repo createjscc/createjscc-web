@@ -1,0 +1,149 @@
+$color: #ff9800;
+$subtitle:#999;
+.banner .text{
+  position: absolute;
+  bottom: 60px;
+  width: 800px;
+  left: 50%;
+  margin-left: -400px;
+}
+.banner .text .btn{
+  height: 44px;
+  line-height: 44px;
+}
+.banner .text p{
+  color: #eee;
+  line-height: 28px;
+  margin-bottom: 24px;
+}
+.notices  {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.notices .notices-box{
+  overflow: hidden;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 30px;
+  line-height: 40px;
+  background-color: #fff;
+  border: 1px solid #e7e7eb;
+}
+.notices .notices-box .github{
+  float: right;
+  line-height: 32px;
+}
+.notices .notices-box .github i{
+  margin-top: 5px;
+}
+.carnavs{
+  margin-top: 30px;
+}
+.el-button-success:hover{
+  border-color: #ff9800;
+  color: #ff9800;
+}
+.carnavs .container .el-row{
+  margin-left: -20px;
+}
+.carnavs .el-col-6 .el-card{
+  margin-left: 20px;
+}
+.carnavs .el-col-6 .el-card .el-card__body img{
+  padding: 20px 30px 0;
+  max-width: 100%
+}
+.carnavs .el-col-6 .el-card p{
+  font-size: 14px;
+  min-height: 80px;
+  color: #999;
+}
+.carnavs .el-col-6 .el-card .btns{
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.uses{
+  background-color: #f7f7f7;
+  margin-top: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.uses p{
+  padding-bottom: 12px;
+}
+.cases{
+  padding-top: 30px;
+   margin-bottom: 30px;
+}
+.cases .card .card-image img{
+  width: 358px;
+  height: 209px;
+}
+.cases .card .card-content .card-title{
+  font-size: 20px;
+}
+.cases .card .card-content p{
+  display: block;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  color: $subtitle;
+  white-space:nowrap;
+}
+.cases .card .card-content{
+  padding-top: 8px;
+}
+.cases .fa.fa-ellipsis-v{
+  margin-top:  12px;
+}
+.cases .card .card-reveal p{
+  display: block;
+  padding-top: 10px;
+  white-space:normal;
+  width: 100%;
+}
+
+.cases .row{
+  margin-bottom: 0;
+}
+.community{
+  background-color: #4a5b77;
+  width: 100%;
+  padding: 25px 0;
+  text-align: center;
+  h3{
+    margin-top:0;
+    font-size: 24px;
+    color: #eee;
+  }
+  .community-box{
+    a{
+      margin: 0 8px;
+      .el-button-primary:hover{
+        color: $color;
+        border-color: $color;
+      }
+    }
+  }
+}
+.updates{
+  padding-top: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  h3{
+    font-size: 24px;
+    color: #555;
+  }
+  .card .card-content .card-title{
+    font-size: 20px;
+  }
+  .time{
+    color: #777;
+  }
+  .card .card-content p{
+    color: $subtitle;
+  }
+
+}
