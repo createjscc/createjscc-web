@@ -228,6 +228,7 @@
   height: 640px;
   position: relative;
   text-align: center;
+  min-width: 1160px;
 }
 @import "../assets/styles/Home";
 </style>

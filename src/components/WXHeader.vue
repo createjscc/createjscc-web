@@ -15,6 +15,7 @@
               <el-dropdown-item>常见问题</el-dropdown-item>
               <el-dropdown-item>大牛养成记</el-dropdown-item>
             </el-dropdown>
+            <el-menu-item index="9"><a href="http://blog.createjs.cc">Blog</a></el-menu-item>
             <el-menu-item index="8"><router-link to="/demos">案例</router-link></el-menu-item>
             <el-menu-item index="7"><router-link to="/tools">协作工具</router-link></el-menu-item>
             <el-menu-item index="3"><router-link to="/preloadjs">PreloadJS</router-link></el-menu-item>

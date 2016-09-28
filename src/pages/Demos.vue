@@ -97,6 +97,7 @@
                            <i class="fa fa-close pull-right"></i>
                         </span>
                        <p>{{item.subtitle}}</p>
+                       <p class="author">作者：{{item.author}}</p>
                      </div>
                     </div>
                   </div>
@@ -199,22 +200,11 @@ chinas = [{
 var source = new Array();
 source = [
   {
-    title:"耐克GEC kendini",
-    subtitle:"一个互动的、好玩的视频体验促进女子2015夏季风格。游客可以购物，分享和获得灵感及这个反应的网站。",
-    image:"../src/assets/images/cases/foreign/nikelidyana.jpg",
-    url:"http://kingsmanmovie.com/becomeakingsman/code"
-  },
-  {
-    title:"耐克GEC kendini",
-    subtitle:"一个互动的、好玩的视频体验促进女子2015夏季风格。游客可以购物，分享和获得灵感及这个反应的网站。",
-    image:"../src/assets/images/cases/foreign/nikelidyana.jpg",
-    url:"http://kingsmanmovie.com/becomeakingsman/code"
-  },
-  {
-    title:"耐克GEC kendini",
-    subtitle:"一个互动的、好玩的视频体验促进女子2015夏季风格。游客可以购物，分享和获得灵感及这个反应的网站。",
-    image:"../src/assets/images/cases/foreign/nikelidyana.jpg",
-    url:"http://kingsmanmovie.com/becomeakingsman/code"
+    title:"～一起来气味王国玩吧～",
+    subtitle:"很好玩的",
+    image:"../src/assets/source/invitation/index.jpg",
+    url:"../src/assets/source/invitation/invitation.html",
+    author:"杨杨电脑店"
   }]
 
   export default {

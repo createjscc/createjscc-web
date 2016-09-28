@@ -12,6 +12,7 @@
         </p>
       </div>
       <div class="footer-social">
+        <a class="forGithub" target="_blank" href="https://github.com/createjscc/createjscc-web">该站点已开源<i class="fa fa-github fa-2x"></i></a><br>
         <a href="http://www.miitbeian.gov.cn/">粤ICP备15104739号-2</a>
       </div>
     </div>
@@ -30,6 +31,7 @@
   color: #a4aebd;
   width: 100%;
   z-index: 1000;
+  min-width: 1160px;
 }
 .footer .footer-main {
     padding-top: 40px;
@@ -54,11 +56,16 @@
 }
 .footer .footer-social {
     float: right;
-    padding-top: 150px;
+    padding-top: 130px;
+    text-align: right;
 }
 .footer .footer-social a{
   margin-left: 20px;
+  line-height: 26px;
   color: #a4aebd;
+}
+.footer .footer-social .forGithub i{
+  margin-left: 5px;
 }
 .footer .footer-social a i{
   font-size: 20px;

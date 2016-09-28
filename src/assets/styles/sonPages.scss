@@ -196,6 +196,13 @@ $subtitle:#999;
     white-space:normal;
     width: 100%;
   }
+  .card .card-reveal p.author{
+    text-align: right;
+    position: absolute;
+    bottom: 12px;
+    right: 16px;
+    color: #ff9800;
+  }
   .card-btn{
     margin-top: 15px;
     text-align: center;
