@@ -1,6 +1,5 @@
 .DS_Store
 node_modules/
 dist/
-source/
 npm-debug.log
 .idea
